@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link href="main.css" rel="stylesheet">
+  <script src="script.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Zen+Loop&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+
+<header>
+  <nav class="nav navbar navbar-expand-md navbar-dark fixed-top lh-1" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand px-3" href="#">
+        <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 mx-5` navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link px-3 fs-5" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 fs-5" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 active fs-5" href="career.html">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 fs-5" href="feedback.html">Feedback</a>
+          </li>
+        </ul>
+        <form class="d-flex search-btn px-3">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light py-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="career">
+    <div class="textdiv position-absolute top-50 start-50 translate-middle focus-in-expand">
+        <h1 class="middle-text-lg display-1 fw-bold text-light align-middle text-center anim-typewriter line-1">The Future</h1>
+    </div>
+    <div class="">
+      <section id="section01" class="demo">
+        <a href="#section02" class="position-absolute start-50 translate-middle-x"><span></span>Scroll</a>
+      </section>
+    </div>
+  </div>
+</header>
+<body>
+  <div class="container-fluid text-center p-5 career-section" id="section02">
+    <div>
+      <h1 class="text-center py-5 fw-bolder share">
+        Future Career Options
+      </h1>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 ai-developer text-center">
+        <!-- Photo by https://www.shutterstock.com/g/monsit on https://www.shutterstock.com/ on Dec 1, 2018-->
+        <img class="career-pic mx-auto" src="application-developer.jpg" alt="application developer">
+        <div class="p-5">
+          <h2>AI Applications Developer</h2>
+          <h4>Duty:</h4>
+          <p> AI developers collect and analyse data from various sources, design, develop and test machine learning models and build and execute AI applications via embedded code or application programme interface (API) calls.</p>
+          <h4>Salary:</h4>
+          <p>Salaries range from 4,490 SGD (lowest) to 13,900 SGD (highest) per month<br>While the average salary is 8,980 SGD per month</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+        <!-- Photo by https://www.shutterstock.com/g/BiancoBlue85 on https://www.shutterstock.com/ on Apr 30, 2022-->
+        <img class="career-pic" src="ai-developer.jpg" alt="ai developer">
+        <div class="p-5">
+          <h2>Application Developer</h2>
+          <h4>Duty:</h4>
+          <p> An app developer is a computer software engineer whose primary responsibilities include creating, testing and programming apps for computers, mobile phones, and tablets.</p>
+          <h4>Salary:</h4>
+          <p>4,698 SGD per month</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+        <!-- Photo by https://www.shutterstock.com/g/SWKStock https://www.shutterstock.com/ on  Jun 8, 2021 -->
+        <img class="career-pic" src="data-science.jpg" alt="data science">
+        <div class="p-5">
+          <h2>Data Scientist</h2>
+          <h4>Duty:</h4>
+          <p> Data scientists are analytical experts who utilize their skills in both technology and social science to find trends and manage data. They use industry knowledge, contextual understanding, skepticism of existing assumptions - to uncover solutions to business challenges.</p>
+          <h4>Salary:</h4>
+          <p>6,000 SGD per month</p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="career-section py-5">
+    <div class="graduation container">
+      <div class="textdiv position-absolute top-50 start-50 text-center translate-middle text-light">
+        <h1>Countdown to Graduation</h1>
+        <hr>
+        <p id="demo" style="font-size:30px"></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+<footer class="bg-custom text-center text-white">
+  <!-- Grid container -->
+  <div class="mx-auto p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <div class="text-center">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/jovan.tan.127" target="_blank" role="button">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/kyouran_desu" target="_blank" role="button">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="mailto:joovanntan@gmail.com" target="_blank" role="button">
+        <i class="fab fa-google"></i>
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/joovanntan/" target="_blank" role="button">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/kyouran-undefined-a01143248" target="_blank" role="button">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/kyourandesu" target="_blank" role="button">
+        <i class="fab fa-github"></i>
+      </a>
+      </div>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Jovan Tan
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+var navbar = document.querySelector('#navbar')
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  navbar.classList.add('bg-custom')
+} else {
+  navbar.classList.remove('bg-custom')
+}
+}
+</script>
+<script>
+  // Set the date we're counting down to
+var countDownDate = new Date("May 6, 2025 00:00:00").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
